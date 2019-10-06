@@ -1,5 +1,6 @@
 num = int(input("Enter number of seconds: "))
 
-convert = num//60
-
-print(str(convert) + " minutes and " + str(num%60) + " seconds.")
+minutes = num // 60
+seconds = num % 60
+print(str(minutes) + " minutes and " + str(seconds) + " seconds.")
+      
