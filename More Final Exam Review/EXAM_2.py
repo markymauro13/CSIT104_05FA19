@@ -7,3 +7,14 @@ for i in range(0,len(x)):
          print(x[i], end='')
 
 #2, What will be the output of the following code?
+
+#a
+x = 'A'
+ch = chr(ord(x)+3)
+print(ch)
+
+#b
+sum = 2+3
+print(sum)
+s = '2' + '3'
+print(s)
