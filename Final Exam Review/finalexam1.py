@@ -11,12 +11,21 @@ for i in range(0,len(list2d)):
 
 print("Sum is: " + str(sum))
 
+print("--------")
 
+list2d = [
+    [1,2,3,4,5],
+    [1,2,3,4,5],
+    [1,2,3,4,5],
+    [1,2,3,4,5],
+    [1,2,3,4,5],
+    ]
+    
 total = 0
-
-print()
 
 for column in range(0, len(list2d[0])):
     for row in range(0, len(list2d)):
         total += list2d[row][column]
+        print(list2d[column][column])
     print("sum for column " + str(column) + " is " + str(total))
+    total = 0
